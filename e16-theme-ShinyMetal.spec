@@ -1,6 +1,6 @@
 %define	_tname	ShinyMetal
-Summary:	Enlightenment ShinyMetal Theme
-Summary(pl):	Wystrój ShinyMetal dla enlightenmenta
+Summary:	Enlightenment ShinyMetal theme
+Summary(pl):	Wystrój ShinyMetal dla Enlightenmenta
 Name:		enlightenment-theme-%{_tname}
 Version:	0.16
 Release:	1
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment ShinyMetal Theme.
+Enlightenment ShinyMetal theme.
 
 %description -l pl
-Wystrój ShinyMetal dla enlightenmenta.
+Wystrój ShinyMetal dla Enlightenmenta.
 
 %prep
 %setup -q
