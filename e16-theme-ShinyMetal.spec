@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment ShinyMetal Theme
+Enlightenment ShinyMetal Theme.
 
 %description -l pl
-Wystrój ShinyMetal dla enlightenmenta
+Wystrój ShinyMetal dla enlightenmenta.
 
 %prep
 %setup -q
