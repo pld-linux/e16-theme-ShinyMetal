@@ -1,6 +1,6 @@
 %define	_tname	ShinyMetal
 Summary:	Enlightenment ShinyMetal theme
-Summary(pl.UTF-8):   Wystrój ShinyMetal dla Enlightenmenta
+Summary(pl.UTF-8):	Wystrój ShinyMetal dla Enlightenmenta
 Name:		e16-theme-%{_tname}
 Version:	0.16.8
 Release:	1
