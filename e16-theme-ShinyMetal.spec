@@ -25,7 +25,7 @@ Wystrój ShinyMetal dla Enlightenmenta.
 %setup -q
 mkdir %{_tname}
 tar -zxf %{_tname}.etheme -C %{_tname}
-%patch0 -p1
+%patch -P0 -p1
 find -name "*.orig" -or -name "*~" -exec rm "{}" ";"
 rm %{_tname}/ttfonts/*
 rm %{_tname}/fonts.cfg.*
